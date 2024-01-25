@@ -47,10 +47,11 @@
 		37EBE7CB2B62798500F265F7 /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = 37EBE7CA2B62798500F265F7 /* Detail */; };
 		37EBE7CE2B62799200F265F7 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = 37EBE7CD2B62799200F265F7 /* Favorite */; };
 		37EBE7D12B62799F00F265F7 /* Games in Frameworks */ = {isa = PBXBuildFile; productRef = 37EBE7D02B62799F00F265F7 /* Games */; };
+		37EBE7E82B62ABA900F265F7 /* RawgExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EBE7E72B62ABA900F265F7 /* RawgExpertTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3777052B2B4EF2F000AF6D3D /* PBXContainerItemProxy */ = {
+		37EBE7E92B62ABA900F265F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 377704EE2B4BAE7F00AF6D3D /* Project object */;
 			proxyType = 1;
@@ -78,11 +79,12 @@
 		3777051D2B4EC1F700AF6D3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3777051F2B4EC46A00AF6D3D /* GamesRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesRows.swift; sourceTree = "<group>"; };
 		377705212B4ECA3B00AF6D3D /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
-		377705272B4EF2F000AF6D3D /* RawgExpertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawgExpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3777054F2B50307B00AF6D3D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		377705522B50456600AF6D3D /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		37C33BC32B60242A00F2EBEF /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		37C33BC72B6026CD00F2EBEF /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		37EBE7E52B62ABA900F265F7 /* RawgExpertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawgExpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EBE7E72B62ABA900F265F7 /* RawgExpertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawgExpertTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377705242B4EF2F000AF6D3D /* Frameworks */ = {
+		37EBE7E22B62ABA900F265F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,6 +183,7 @@
 				37C33BC72B6026CD00F2EBEF /* .swiftlint.yml */,
 				37C33BC32B60242A00F2EBEF /* codemagic.yaml */,
 				377704F82B4BAE7F00AF6D3D /* RawgExpert */,
+				37EBE7E62B62ABA900F265F7 /* RawgExpertTests */,
 				377704F72B4BAE7F00AF6D3D /* Products */,
 				37D3A4952B5D00F7002A1DD7 /* Frameworks */,
 			);
@@ -190,7 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				377704F62B4BAE7F00AF6D3D /* RawgExpert.app */,
-				377705272B4EF2F000AF6D3D /* RawgExpertTests.xctest */,
+				37EBE7E52B62ABA900F265F7 /* RawgExpertTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +323,14 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		37EBE7E62B62ABA900F265F7 /* RawgExpertTests */ = {
+			isa = PBXGroup;
+			children = (
+				37EBE7E72B62ABA900F265F7 /* RawgExpertTests.swift */,
+			);
+			path = RawgExpertTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,22 +374,22 @@
 			productReference = 377704F62B4BAE7F00AF6D3D /* RawgExpert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		377705262B4EF2F000AF6D3D /* RawgExpertTests */ = {
+		37EBE7E42B62ABA900F265F7 /* RawgExpertTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3777052D2B4EF2F000AF6D3D /* Build configuration list for PBXNativeTarget "RawgExpertTests" */;
+			buildConfigurationList = 37EBE7EB2B62ABA900F265F7 /* Build configuration list for PBXNativeTarget "RawgExpertTests" */;
 			buildPhases = (
-				377705232B4EF2F000AF6D3D /* Sources */,
-				377705242B4EF2F000AF6D3D /* Frameworks */,
-				377705252B4EF2F000AF6D3D /* Resources */,
+				37EBE7E12B62ABA900F265F7 /* Sources */,
+				37EBE7E22B62ABA900F265F7 /* Frameworks */,
+				37EBE7E32B62ABA900F265F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3777052C2B4EF2F000AF6D3D /* PBXTargetDependency */,
+				37EBE7EA2B62ABA900F265F7 /* PBXTargetDependency */,
 			);
 			name = RawgExpertTests;
 			productName = RawgExpertTests;
-			productReference = 377705272B4EF2F000AF6D3D /* RawgExpertTests.xctest */;
+			productReference = 37EBE7E52B62ABA900F265F7 /* RawgExpertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -388,14 +399,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					377704F52B4BAE7F00AF6D3D = {
 						CreatedOnToolsVersion = 15.1;
 					};
-					377705262B4EF2F000AF6D3D = {
-						CreatedOnToolsVersion = 15.1;
+					37EBE7E42B62ABA900F265F7 = {
+						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 377704F52B4BAE7F00AF6D3D;
 					};
 				};
@@ -423,7 +434,7 @@
 			projectRoot = "";
 			targets = (
 				377704F52B4BAE7F00AF6D3D /* RawgExpert */,
-				377705262B4EF2F000AF6D3D /* RawgExpertTests */,
+				37EBE7E42B62ABA900F265F7 /* RawgExpertTests */,
 			);
 		};
 /* End PBXProject section */
@@ -440,7 +451,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377705252B4EF2F000AF6D3D /* Resources */ = {
+		37EBE7E32B62ABA900F265F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,20 +505,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377705232B4EF2F000AF6D3D /* Sources */ = {
+		37EBE7E12B62ABA900F265F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37EBE7E82B62ABA900F265F7 /* RawgExpertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3777052C2B4EF2F000AF6D3D /* PBXTargetDependency */ = {
+		37EBE7EA2B62ABA900F265F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 377704F52B4BAE7F00AF6D3D /* RawgExpert */;
-			targetProxy = 3777052B2B4EF2F000AF6D3D /* PBXContainerItemProxy */;
+			targetProxy = 37EBE7E92B62ABA900F265F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -693,7 +705,7 @@
 			};
 			name = Release;
 		};
-		3777052E2B4EF2F000AF6D3D /* Debug */ = {
+		37EBE7EC2B62ABA900F265F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -710,7 +722,7 @@
 			};
 			name = Debug;
 		};
-		3777052F2B4EF2F000AF6D3D /* Release */ = {
+		37EBE7ED2B62ABA900F265F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -748,11 +760,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3777052D2B4EF2F000AF6D3D /* Build configuration list for PBXNativeTarget "RawgExpertTests" */ = {
+		37EBE7EB2B62ABA900F265F7 /* Build configuration list for PBXNativeTarget "RawgExpertTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3777052E2B4EF2F000AF6D3D /* Debug */,
-				3777052F2B4EF2F000AF6D3D /* Release */,
+				37EBE7EC2B62ABA900F265F7 /* Debug */,
+				37EBE7ED2B62ABA900F265F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

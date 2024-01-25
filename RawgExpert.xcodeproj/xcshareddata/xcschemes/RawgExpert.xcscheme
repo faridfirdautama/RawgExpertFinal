@@ -40,6 +40,17 @@
                ReferencedContainer = "container:RawgExpert.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "37EBE7D52B62A6D200F265F7"
+               BuildableName = "RawgExpertUITests.xctest"
+               BlueprintName = "RawgExpertUITests"
+               ReferencedContainer = "container:RawgExpert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
